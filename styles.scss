@@ -49,6 +49,12 @@ a {
   --border-radius: 0.75rem;
 }
 
+body {
+  font: {
+    family: var(--ff-base);
+  }
+}
+
 .candidate {
   img {
     margin: 0.625rem;
@@ -57,8 +63,13 @@ a {
   }
 
   .name {
+    font: {
+      family: var(--ff-accent);
+      size: 2.25rem;
+    }
     margin: {
-      bottom: 0;
+      block-start: 0.25em;
+      block-end: 0;
     }
   }
 
@@ -70,6 +81,13 @@ a {
     }
     margin: {
       top: 0;
+      block-end: 0.5em;
+    }
+  }
+
+  .bio {
+    margin: {
+      block: 0;
     }
   }
 }
