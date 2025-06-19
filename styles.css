@@ -46,8 +46,12 @@ body {
   font-family: var(--ff-base);
 }
 
+.candidate {
+  width: 100%;
+  padding: 0.625rem;
+}
 .candidate img {
-  margin: 0.625rem;
+  margin-right: 0.625rem;
   border-radius: 0.75rem;
   -o-object-fit: contain;
      object-fit: contain;
